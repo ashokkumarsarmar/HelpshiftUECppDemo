@@ -1,6 +1,6 @@
 # Introduction
 
-This demo is for folks who want to use HS plugin in a unreal engine project which is written in C++. This contains the core Messaging module for the HS plugin which is created in the HS runtime environment.
+This demo is for folks who want to use Helpshift plugin in a unreal engine project which is written in C++. This contains the core Messaging module for the Helpshift plugin which is created in the Helpshift runtime environment.
 
 # Project Structure
 <img width="290" alt="Screenshot 2022-01-09 at 11 09 57 PM" src="https://user-images.githubusercontent.com/97083239/148693849-0339e581-fe84-4ffd-8866-29e5a16c3278.png">
@@ -10,14 +10,16 @@ This demo is for folks who want to use HS plugin in a unreal engine project whic
 
 1. Clone the project
 2. Open Unreal Engine (> version 4)
-3. Compile the project
+3. Download [Helpshift Demo Plugin](https://drive.google.com/drive/folders/1_MoV3m23jfo2JspbndZQrWQBH7B5P6vc?usp=sharing) 
+4. Update this in the Plugins folder
+5. Compile the project
 
     <img width="440" alt="Screenshot 2022-01-05 at 4 57 23 PM" src="https://user-images.githubusercontent.com/97083239/148210386-7fc49c2e-c62f-4e36-93b7-c3fb9acdd4a0.png">
     
 4. Run it on a Mobile(IOS/Android) Device
 
 
-# Creating your first C++ Unreal Project with HS plugin 
+# Creating your first C++ Unreal Project with Helpshift plugin 
 
 1. Open new project in unreal engine
 2. Select C++ in project setting
@@ -32,7 +34,7 @@ This demo is for folks who want to use HS plugin in a unreal engine project whic
     Copy the plugin (helpshift-sdk-ue4) directory into [YOUR_PROJECT]/Plugins directory
     After that, once you reopen your project, the plugin should appear in the Plugins section
   
-5. Create any component( example character, pawn etc) in the HS runtime environment
+5. Create any component( example character, pawn etc) in the Helpshift runtime environment
 
   <img width="212" alt="Screenshot 2022-01-09 at 11 02 22 PM" src="https://user-images.githubusercontent.com/97083239/148693610-c9f487d9-97f8-4589-b6f9-1440fb4b0441.png">
   
@@ -45,13 +47,13 @@ This demo is for folks who want to use HS plugin in a unreal engine project whic
       TMap<FString, FHelpshiftConfigParameter> Parameters;
     ```
 
-7. Initialise the HS library
+7. Initialise the Helpshift library
 
     ```
       UHelpshiftLibrary::Init(Parameters);
     ```
     
-8. Now you can use any functions from the HS library in HS runtime.
+8. Now you can use any functions from the Helpshift library in Helpshift runtime.
   for example:
       ```
        UHelpshiftLibrary::ShowFrequentlyAskedQuestions(Parameters);

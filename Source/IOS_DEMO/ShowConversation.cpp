@@ -16,7 +16,29 @@ AShowConversation::AShowConversation()
 // Called when the game starts or when spawned
 void AShowConversation::BeginPlay()
 {
+	TMap<FString, FHelpshiftConfigParameter> Parameters;
+	UHelpshiftLibrary::Init(Parameters);
 	Super::BeginPlay();
+	/**
+    * You can use the API call to allow a user to directly send feedback or start a new conversation without having to first view FAQs.
+    * Once, a user starts a new conversation, this API call will show the conversation screen. The conversation will continue until it is resolved or rejected by the agent.
+    *
+    * @param Parameters: additional data to pass for the conversation.
+    * https://developers.helpshift.com/sdkx_android/sdk-configuration/
+    * https://developers.helpshift.com/sdkx_ios/sdk-configuration/
+    * @param Tags: additional tags for the conversation.
+    * https://developers.helpshift.com/sdkx_android/tracking/#adding-tags
+    * @param CustomIssueFields: custom issue fields for the conversation.
+    * https://developers.helpshift.com/sdkx_android/tracking/#set-custom-issue-fields
+    */
+
+    TArray<FString> Tags = {"foo", "bar"};
+	TMap<FString, FHelpshiftCustomIssueFieldParameter> CustomIssueFields; 
+
+	CustomIssueFields.Add("tier", UHelpshiftCustomIssueFieldParameterFunctions::NewSingleLineParameter("professional"));
+	
+	UHelpshiftLibrary::ShowConversation(Parameters, Tags, CustomIssueFields);
+
 	
 }
 

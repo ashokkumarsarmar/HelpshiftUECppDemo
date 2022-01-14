@@ -39,7 +39,8 @@ This demo is for folks who want to use Helpshift plugin in a unreal engine proje
   <img width="212" alt="Screenshot 2022-01-09 at 11 02 22 PM" src="https://user-images.githubusercontent.com/97083239/148693610-c9f487d9-97f8-4589-b6f9-1440fb4b0441.png">
   
   <img width="906" alt="Screenshot 2022-01-09 at 11 02 50 PM" src="https://user-images.githubusercontent.com/97083239/148693604-31d0a6cc-2351-4d10-b5fc-9cbc7e787e87.png">
-  
+  <img width="974" alt="Screenshot 2022-01-14 at 7 00 12 PM" src="https://user-images.githubusercontent.com/97083239/149523088-0a03a45c-3c3b-4ca8-a379-8173ce5901f2.png">
+
 
 6. Add the config Tmap 
 

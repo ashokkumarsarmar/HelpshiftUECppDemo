@@ -1,6 +1,6 @@
 # Introduction
 
-This demo is for folks who want to use Helpshift plugin in a unreal engine project which is written in C++. This contains the core Messaging module for the Helpshift plugin which is created in the Helpshift runtime environment.
+This demo is for folks who want to use Helpshift plugin in a unreal engine project which is written in C++. This contains the core Messaging module for the Helpshift plugin which is created in the Helpshift runtime environment/ Project Runtime.
 
 # Project Structure
 <img width="290" alt="Screenshot 2022-01-09 at 11 09 57 PM" src="https://user-images.githubusercontent.com/97083239/148693849-0339e581-fe84-4ffd-8866-29e5a16c3278.png">
@@ -34,7 +34,7 @@ This demo is for folks who want to use Helpshift plugin in a unreal engine proje
     Copy the plugin (helpshift-sdk-ue4) directory into [YOUR_PROJECT]/Plugins directory
     After that, once you reopen your project, the plugin should appear in the Plugins section
   
-5. Create any component( example character, pawn etc) in the Helpshift runtime environment
+5. Create any component( example character, pawn etc) in the Helpshift runtime environment/ Project Runtime.
 
   <img width="212" alt="Screenshot 2022-01-09 at 11 02 22 PM" src="https://user-images.githubusercontent.com/97083239/148693610-c9f487d9-97f8-4589-b6f9-1440fb4b0441.png">
   

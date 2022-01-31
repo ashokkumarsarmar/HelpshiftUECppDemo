@@ -12,7 +12,8 @@ This demo is for folks who want to use Helpshift plugin in a unreal engine proje
 2. Open Unreal Engine (> version 4)
 3. Download [Helpshift Demo Plugin](https://drive.google.com/drive/folders/1_MoV3m23jfo2JspbndZQrWQBH7B5P6vc?usp=sharing) 
 4. Update this in the Plugins folder
-5. Compile the project
+5. Please add the google-services.json to the project (if you're using notifications)
+6. Compile the project
 
     <img width="440" alt="Screenshot 2022-01-05 at 4 57 23 PM" src="https://user-images.githubusercontent.com/97083239/148210386-7fc49c2e-c62f-4e36-93b7-c3fb9acdd4a0.png">
     
